@@ -1,0 +1,45 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px #0009;
+}
+
+.card__quote {
+  max-width: 400px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.card__author {
+  display: block;
+  margin-left: auto;
+  max-width: max-content;
+  margin-bottom: 10px;
+}
+
+.card__button {
+  display: block;
+  margin-left: auto;
+  color: white;
+  border: none;
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: filter 100ms ease, transform 100ms ease;
+}
+
+.card__button:hover {
+  filter: brightness(1.3);
+  transform: scale(1.1);
+  transition: filter 100ms ease, transform 100ms ease;
+}
